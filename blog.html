@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Démo : ne pas indexer. À retirer à la mise en ligne d'un vrai client (avec public/_headers), et remettre <link rel="canonical" href="https://…/page.html" /> -->
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" href="data:," /><!-- à remplacer par le logo : <link rel="icon" href="favicon.png" /> -->
+    <!-- Titre et description = ce qui s'affiche dans Google : à personnaliser pour chaque client -->
+    <title>Blog — [Nom de l'entreprise]</title>
+    <meta
+      name="description"
+      content="Conseils d'artisan : entretien, dépannage et travaux de plomberie et chauffage."
+    />
+    <!-- Partage sur les réseaux (Open Graph) : à remplir à la mise en ligne -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Blog — [Nom de l'entreprise]" />
+    <meta property="og:description" content="Conseils d'artisan : entretien, dépannage et travaux de plomberie et chauffage." />
+    <meta property="og:image" content="[URL d'une vraie photo]" />
+    <meta property="og:url" content="[URL de la page]" />
+  </head>
+  <body data-page="blog">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

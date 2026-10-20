@@ -1,0 +1,4 @@
+# Site Netlify du template (séparé du portfolio) : build local, publication du dossier dist
+[build]
+  command = "npm run build"
+  publish = "dist"
